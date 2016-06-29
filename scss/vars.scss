@@ -1,0 +1,32 @@
+$s-color-gray-base: #000000;
+$s-color-gray-1: mix(white, $s-color-gray-base, 98);
+$s-color-gray-2: mix(white, $s-color-gray-base, 96);
+$s-color-gray-3: mix(white, $s-color-gray-base, 92);
+$s-color-gray-4: mix(white, $s-color-gray-base, 84);
+$s-color-gray-5: mix(white, $s-color-gray-base, 68);
+$s-color-gray-6: mix(white, $s-color-gray-base, 36);
+$s-color-gray-7: mix(white, $s-color-gray-base, 20);
+$s-color-gray-8: mix(white, $s-color-gray-base, 4);
+$s-color-gray-9: mix(white, $s-color-gray-base, 2);
+
+$s-color-primary-base: #4a90e2;
+$s-color-primary-1: mix(white, $s-color-primary-base, 64);
+$s-color-primary-2: mix(white, $s-color-primary-base, 48);
+$s-color-primary-3: mix(white, $s-color-primary-base, 32);
+$s-color-primary-4: mix(white, $s-color-primary-base, 16);
+$s-color-primary-5: $s-color-primary-base;
+$s-color-primary-6: mix(black, $s-color-primary-base, 16);
+$s-color-primary-7: mix(black, $s-color-primary-base, 32);
+$s-color-primary-8: mix(black, $s-color-primary-base, 48);
+$s-color-primary-9: mix(black, $s-color-primary-base, 64);
+
+$s-color-secondary-base: #f5a623;
+$s-color-secondary-1: mix(white, $s-color-secondary-base, 64);
+$s-color-secondary-2: mix(white, $s-color-secondary-base, 48);
+$s-color-secondary-3: mix(white, $s-color-secondary-base, 32);
+$s-color-secondary-4: mix(white, $s-color-secondary-base, 16);
+$s-color-secondary-5: $s-color-secondary-base;
+$s-color-secondary-6: mix(black, $s-color-secondary-base, 16);
+$s-color-secondary-7: mix(black, $s-color-secondary-base, 32);
+$s-color-secondary-8: mix(black, $s-color-secondary-base, 48);
+$s-color-secondary-9: mix(black, $s-color-secondary-base, 64);
