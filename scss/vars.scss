@@ -11,14 +11,14 @@ $s-color-gray-9: mix(white, $s-color-gray-base, 2);
 
 $s-color-primary-base: #4a90e2;
 $s-color-primary-1: mix(white, $s-color-primary-base, 64);
-$s-color-primary-2: mix(white, $s-color-primary-base, 48);
-$s-color-primary-3: mix(white, $s-color-primary-base, 32);
-$s-color-primary-4: mix(white, $s-color-primary-base, 16);
+$s-color-primary-2: mix(white, $s-color-primary-base, 32);
+$s-color-primary-3: mix(white, $s-color-primary-base, 16);
+$s-color-primary-4: mix(white, $s-color-primary-base, 8);
 $s-color-primary-5: $s-color-primary-base;
-$s-color-primary-6: mix(black, $s-color-primary-base, 16);
-$s-color-primary-7: mix(black, $s-color-primary-base, 32);
-$s-color-primary-8: mix(black, $s-color-primary-base, 48);
-$s-color-primary-9: mix(black, $s-color-primary-base, 64);
+$s-color-primary-6: #4585d1;
+$s-color-primary-7: #3e78bd;
+$s-color-primary-8: #326199;
+$s-color-primary-9: #1a3351;
 
 $s-color-secondary-base: #f5a623;
 $s-color-secondary-1: mix(white, $s-color-secondary-base, 64);
