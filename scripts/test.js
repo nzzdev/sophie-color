@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-var sass = require('node-sass');
+const sass = require('node-sass');
+const jsonImporter = require('node-sass-json-importer');
 
-sass.renderSync({
+console.log(sass.renderSync({
   file: 'main.scss',
-  includePaths: ['scss']
-});
+  includePaths: ['scss'],
+  importer: jsonImporter
+}).css.toString());

@@ -1,6 +1,6 @@
 {
   "name": "sophie-color",
-  "version": "1.1.0",
+  "version": "1.2.0-rc.1",
   "description": "Sophie color module",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,10 @@
   },
   "author": "Beni Buess <beni.buess@nzz.ch>",
   "dependencies": {
-    "node-sass": "^3.8.0"
+    "node-sass": "^3.8.0",
+    "node-sass-json-importer": "^3.0.2"
   },
-  "sophie": {
-    "sass": {
-      "includePaths": [
-        "scss"
-      ],
-      "vars": [
-        "scss/vars.scss"
-      ]
-    }
-  },
+  "sophie": {},
   "devDependencies": {
     "pre-commit": "^1.1.3"
   }
