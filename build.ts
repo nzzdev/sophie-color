@@ -21,3 +21,6 @@ const generalValues = Object.entries(VARS)
 
 
 fs.writeFileSync('scss/general.css', doNotEditCommentCSS + generalValues);
+
+/** Generate combined file for sophie build service */
+fs.writeFileSync('scss/general.scss', doNotEditCommentCSS + varsValues + '\n\n' + generalValues);
