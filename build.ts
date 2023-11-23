@@ -1,14 +1,18 @@
 import fs from 'fs';
 import VARS from './vars/general.json';
 
-const doNotEditComment = '// Generated file. DO NOT EDIT!\n\n';
+/* vars.scss */
+const doNotEditCommentScss = '// Generated file. DO NOT EDIT!\n\n';
 
 // Loop through the vars and save a vars.scss file.
 const varsValues = Object.entries(VARS)
   .map(([key, value]) => `$${key}: ${value};`)
   .join('\n');
 
-fs.writeFileSync('scss/vars.scss', doNotEditComment + varsValues);
+fs.writeFileSync('scss/vars.scss', doNotEditCommentScss + varsValues);
+
+/* general.css */
+const doNotEditCommentCSS = '/* Generated file. DO NOT EDIT! */\n\n';
 
 // Loop through the vars and save a general.scss file.
 const generalValues = Object.entries(VARS)
@@ -16,4 +20,4 @@ const generalValues = Object.entries(VARS)
   .join('\n');
 
 
-fs.writeFileSync('scss/general.css', doNotEditComment + generalValues);
+fs.writeFileSync('scss/general.css', doNotEditCommentCSS + generalValues);
