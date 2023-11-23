@@ -1,6 +1,6 @@
 {
   "name": "sophie-color",
-  "version": "1.3",
+  "version": "1.3.1",
   "description": "Sophie color module",
   "main": "index.js",
   "scripts": {
