@@ -7,7 +7,7 @@
     "build": "tsx build.ts",
     "prepare": "husky install"
   },
-  "author": "Beni Buess <beni.buess@nzz.ch>",
+  "author": "Editorial Tech NZZ <editorial-tech@nzz.ch>",
   "dependencies": {
     "sass": "^1.25.0",
     "typescript": "^5.3.2"
