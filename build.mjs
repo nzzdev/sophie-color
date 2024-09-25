@@ -1,5 +1,5 @@
 import fs from 'fs';
-import VARS from './vars/general.json';
+import VARS from './vars/general.json' with {type: 'json'};
 
 /* vars.scss */
 const doNotEditCommentScss = '// Generated file. DO NOT EDIT!\n\n';
