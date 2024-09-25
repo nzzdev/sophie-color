@@ -11,10 +11,5 @@
   "sophie": {},
   "devDependencies": {
     "husky": "^9.1.6"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "node build.mjs --write . && git add -A ."
-    }
   }
 }
